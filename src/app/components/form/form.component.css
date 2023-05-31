@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  background-color: bisque;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.perguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perguntas > label {
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+input {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+}
+
+.perguntas > button {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.frase1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.frase2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin: auto;
+  align-items: center;
+}
+
+.frase2 > button {
+  margin: 10px;
+}
+
+.frase2 > label {
+  margin: 10px;
+}
+
+.frase3 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+button {
+  padding: 20px;
+  width: 250px;
+  font-size: medium;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+h2 {
+  font-size: 20px;
+}
